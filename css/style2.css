@@ -1,0 +1,44 @@
+h1 {
+  color: red;
+  border: 1px solid black;
+  display: block;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: red;
+}
+
+razdel {
+  background-color: red;
+}
+
+razdel_new {
+  background-color: black;
+  border: 1px solid black;
+  display: block;
+}
+
+button .test {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  border: none;
+  width: 200px;
+  vertical-align: middle;
+}
+
+button .test:hover {
+  cursor: pointer;
+}
+
+button .test:disabled {
+  color: red;
+  cursor: default;
+  pointer-events: none;
+}
+/*# sourceMappingURL=style2.css.map */

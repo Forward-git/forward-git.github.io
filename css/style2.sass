@@ -1,0 +1,36 @@
+$color: red
+@mixin button-base()
+	display: inline-flex
+	position: relative
+	border: none
+	width: 200px
+	vertical-align: middle
+
+	&:hover
+		cursor: pointer
+
+	&:disabled
+		color: red
+		cursor: default
+		pointer-events: none
+
+@mixin box 
+	border: 1px solid black
+	display: block
+
+h1 
+	color: $color
+	@include box
+
+h2 
+	color: white
+h3
+	color: $color
+
+razdel 
+	background-color: $color
+	&_new 
+		background-color: black
+		@include box
+button .test
+	@include button-base()    
